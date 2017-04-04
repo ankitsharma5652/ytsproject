@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_marginLeft="5dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="5dp"
+ android:layout_centerHorizontal="false"
+    android:layout_marginBottom="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cast_row">
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/ic_menu_camera"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/cast_img" />
+
+    <TextView
+        android:text="TextV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cast_char"
+        android:gravity="center"
+        android:maxWidth="100dp"
+        android:layout_below="@+id/cast_img"
+        android:layout_alignStart="@+id/cast_img" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cast_name"
+        android:textColor="@color/colorPrimary"
+        android:gravity="left"
+        android:maxWidth="100dp"
+        android:layout_below="@+id/cast_char"
+        android:layout_alignStart="@+id/cast_char" />
+
+</RelativeLayout>
