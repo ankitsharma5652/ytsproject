@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">YTS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="genre">
+        <item>All</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Biography</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>Film-Noir</item>
+        <item>Game-Show</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Musical</item>
+        <item>Mystery</item>
+        <item>News</item>
+        <item>Reality-TV</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Sport</item>
+        <item>Talk-Show</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+    <string-array name="rating">
+        <item>All</item>
+        <item>1+</item>
+        <item>2+</item>
+        <item>3+</item>
+        <item>4+</item>
+        <item>5+</item>
+        <item>6+</item>
+        <item>7+</item>
+        <item>8+</item>
+        <item>9+</item>
+
+    </string-array>
+    <string-array name="quality">
+
+        <item>All</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>3D</item>
+    </string-array>
+
+    <string-array name="order_by">
+
+        <item>Latest</item>
+        <item>Oldest</item>
+        <item>Seeds</item>
+        <item>Peers</item>
+        <item>Year</item>
+        <item>Rating</item>
+        <item>Likes</item>
+        <item>Alphabetical</item>
+        <item>Downloads</item>
+    </string-array>
+
+    <string-array name="category">
+        <item value="0">Quality</item>
+        <item value="1">Genre</item>
+        <item value="2">Rating</item>
+
+    </string-array>
+    <string name="three">Order By</string>
+
+    <string name="aboutus">This app is created by \n <b>SAHIL MATHUR</b> \n who is enthusiast developer .This app is created for learning and understanding android technology.His purpose is not break law or harm anyone.</string>
+
+</resources>
